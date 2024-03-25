@@ -6,16 +6,16 @@ class Person {
     }
 
     fullName() {
-        return `${this.firstName} ${this.lastName}`;
+        return `${this.firstName} ${this.lastName}`
     }
 
     greet() {
-        return `Welcome ${this.fullName()}! and your email address: ${this.email}`
+        return `Welcome ${this.fullName()}! and It's your email address: ${this.email}`
     }
 }
 
-const person1 = new Person('Shafrin', 'Ahamed', 'shafirn@ahamed');
-const person2 = new Person("Ahamed", 'Shafrin', 'Ahamed@Shafrin.com');
+const Person1 = new Person("Shafrin", "Ahamed", "shafrin@ahamed.com");
+const Person2 = new Person("Ahamed", "Shafrin", "ahamed@shafrin.com");
 
-console.log(person1.greet());
-console.log(person2.greet());
+console.log(Person1.greet());
+console.log(Person2.greet());
